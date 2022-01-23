@@ -1,0 +1,43 @@
+Arguments: 
+  /home/lenovo/.fnm/node-versions/v16.13.2/installation/bin/node /tmp/fnm_multishells/7898_1642958092915/bin/yarn
+
+PATH: 
+  /tmp/fnm_multishells/7898_1642958092915/bin:/home/lenovo/.fnm:/tmp/fnm_multishells/5955_1642956994975/bin:/home/lenovo/.fnm:/home/lenovo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+
+npm manifest: 
+  {
+    "name": "my-react",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^1.0.7",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
